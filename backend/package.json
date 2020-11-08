@@ -1,0 +1,36 @@
+{
+  "author": "zbryikt",
+  "name": "backend",
+  "license": "MIT",
+  "description": "backend",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zbryikt/backend",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbryikt/backend"
+  },
+  "engines": {
+    "node": ">=10.14.1",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "start": "cd web; npx server"
+  },
+  "devDependencies": {
+    "LiveScript": ">=1.2.0",
+    "stylus": "^0.54.5",
+    "uglify-js": "=3.2.0",
+    "uglifycss": "0.0.29",
+    "template": "github:zbryikt/template#v2.0.0"
+  },
+  "dependencies": {
+    "bootstrap.ldui": "github:loadingio/bootstrap.ldui",
+    "fedep": "github:plotdb/fedep"
+  },
+  "frontendDependencies": {
+    "root": "web/static/assets/lib",
+    "modules": [
+      "bootstrap.ldui"
+    ]
+  }
+}

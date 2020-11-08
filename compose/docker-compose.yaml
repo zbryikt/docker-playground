@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  web:
+    image: "dp-backend:latest"
+    #build: .
+  nginx:
+    image: "dp-web:latest"
+    depends_on:
+      - web
+    ports:
+      - 8090:80

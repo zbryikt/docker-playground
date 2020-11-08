@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+cd backend
+docker build -t dp-backend .
+cd ..
+cd web
+docker build -t db-web .
+cd ..
